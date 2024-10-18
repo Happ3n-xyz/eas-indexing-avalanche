@@ -41,6 +41,17 @@ if (!CHAIN_ID) {
 
 export const EAS_CHAIN_CONFIGS: EASChainConfig[] = [
   {
+    chainId: 43113,
+    chainName: "avalanche fuji",
+    subdomain: "",
+    version: "1.0",
+    contractAddress: "0xA8cb9a36e42ae9805166c4422A64AAcEaC8Cbb33", //
+    schemaRegistryAddress: "0xF744647915746Af87B590915d5CCc1B0eb58732e", //
+    etherscanURL: "https://testnet.snowtrace.io/",
+    contractStartBlock: 35663494,
+    rpcProvider: `https://avalanche-fuji-c-chain-rpc.publicnode.com`,
+  },
+  {
     chainId: 11155111,
     chainName: "sepolia",
     subdomain: "",
